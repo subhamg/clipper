@@ -1,0 +1,114 @@
+<!Doctype>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+        <link rel="stylesheet" href="css/style1.css" type="text/css">
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    </head>
+    <body >
+        <form class="form-horizontal" >
+        <fieldset>
+
+        <!-- Form Name -->
+        
+
+        <!-- Button Drop Down -->
+        <div class="form-group" >
+          <div class="col-md-10">
+            <div class="input-group">
+              <input id="buttondropdown" name="buttondropdown" class="form-control" placeholder="" type="text">
+              <div class="input-group-btn">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                  Action
+                  <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu pull-right">
+                    <li><a href="#">Android</a></li>
+                    <li><a href="#">Hacker News</a></li>
+                    <li><a href="#">Before</a></li>
+                    <li><a href="#">Humour</a></li>
+                    <li><a href="#">Reddit</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+            <span class="glyphicon glyphicon-remove" style="color:  #e6e6e6"></span>
+        </div>
+
+        <!-- Prepended text-->
+        <div class="form-group">
+          <div class="col-md-10">
+            <div class="input-group">
+              <span class="input-group-addon">Title</span>
+              <input id="title" name="title" class="form-control" placeholder="" type="text">
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Prepended text-->
+        <div class="form-group">
+          <div class="col-md-12">
+            <div class="input-group">
+              <span class="input-group-addon">http://</span>
+              <input id="url" name="url" class="form-control" placeholder="mysite.com" type="text">
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Textarea -->
+        <div class="form-group">
+          <div class="col-md-12">                     
+            <textarea class="form-control" id="textarea" name="textarea">summary</textarea>
+          </div>
+        </div>
+
+        <!-- Appended Input-->
+        <div class="form-group">
+          <div class="col-md-12">
+            <div class="input-group">
+              <input id="appendedtext" name="appendedtext" class="form-control" placeholder="" type="text">
+              <span class="input-group-addon">Tags</span>
+            </div>
+
+          </div>
+        </div>
+        <!-- Appended Input-->
+        <div class="form-group">
+          <div class="col-md-12">
+            <div class="input-group">
+              <input id="mentions" name="mentions" class="form-control" placeholder="" type="text" required="">
+              <span class="input-group-addon">Mentions</span>
+            </div>
+
+          </div>
+        </div>
+        <!-- Multiple Checkboxes (inline) -->
+        <div class="form-group">
+          <div class="col-md-12">
+            <label class="checkbox-inline" for="checkboxes-0">
+              <input type="checkbox" name="checkboxes" id="checkboxes-0" value="1">
+              Readability
+            </label>
+            <label class="checkbox-inline" for="checkboxes-1">
+              <input type="checkbox" name="checkboxes" id="checkboxes-1" value="2">
+              Markdown
+            </label>
+          </div>
+        </div>
+
+        <!-- Button -->
+        <div class="form-group">
+          <div class="col-md-12">
+            <button id="button" name="button" class="btn btn-default">Clip Item</button>
+          </div>
+        </div>
+
+        </fieldset>
+        </form>
+    </body>
+</html>
