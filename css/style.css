@@ -1,0 +1,43 @@
+* {
+    margin:5px;
+    padding: 0;
+}
+body {
+  min-width: 45em;
+  min-height: 20em;
+    background-color: black;
+}
+
+.fullpagecontainer {
+    width:35em;
+    background-color:cadetblue;
+}
+
+.heading {
+    width: 35em;
+    color: white;
+    
+}
+.heading ul li {
+    display: inline;
+}
+
+.heading li h3 {
+    text-align: center;
+}
+
+.heading li i {
+    float: right;
+}
+
+.ui .labeled .label {
+    width:5em;
+    height:37px;
+   margin-top: 15px;
+
+    
+}
+#input {
+    width:28em;
+    margin-left: 0px;
+}

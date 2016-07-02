@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+
+body {
+    width: 100%;
+  
+    font-style: normal;
+    overflow: hidden;
+    background-color:#3c3e40;
+    
+}
+
+.form-control{
+    background-color: #383a3c;
+    border: 1px solid #22a86c;
+}
+
+.input-group-addon {
+    background-color: #22a86c;
+    border: 1px solid #339966;
+    color:#e6e6e6;
+}
+
+.btn-default {
+    background-color: #22a86c;
+    border: 1px solid #339966;
+    color: #e6e6e6;
+}
+
+.btn-default:hover {
+    color: #22a86c;
+}
+
+input[type=text]:focus, #textarea:focus {
+    box-shadow: 0 0 5px rgba(34, 168, 108, 0.9);
+
+  border: 1px solid rgba(34, 168, 108, 0.9);
+}
+
+label {
+    color: #e6e6e6;
+}
+
+label:hover{
+    color:#339966;
+}
+
+input[type=checkbox] {
+    background-color: blue;
+}
